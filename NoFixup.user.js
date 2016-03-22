@@ -9,6 +9,10 @@
 // @require      https://greasyfork.org/scripts/6250-waitforkeyelements/code/waitForKeyElements.js?version=23756
 // @grant        GM_log
 // ==/UserScript==
+/* jshint -W097 */
+/* globals $:false */
+/* global waitForKeyElements */
+'use strict';
 
 waitForKeyElements (".merge-message", disableMergeButton);
 waitForKeyElements (".branch-action-item", hideUpdateBranchButton);
