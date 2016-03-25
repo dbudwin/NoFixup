@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         NoFixup!
 // @namespace    http://www.budw.in/
-// @version      0.2.2
+// @version      0.3.2
 // @description  Disable the merge pull request button when fixup! commits exist in the current PR and haven't been squashed yet and hide the "Update branch" button.
 // @author       Drew Budwin
 // @match        http*://github.com/*
